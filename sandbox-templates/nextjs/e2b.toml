@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (n08gqudahm40yy2zkkaa) or template name (vyne-test-2) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("vyne-test-2") # Sync sandbox
+# sandbox = await AsyncSandbox.create("vyne-test-2") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('vyne-test-2')
+
+team_id = "1ed2599f-e2cf-44b3-87cd-c08442b68f5f"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "vyne-test-2"
+template_id = "n08gqudahm40yy2zkkaa"
